@@ -317,7 +317,7 @@ export default class Video extends Component {
     }
 
     let nativeResizeMode;
-    const RCTVideoInstance = this.getViewManagerConfig('RCTVideo');
+    const RCTVideoInstance = this.getViewManagerConfig('RNVVideo');
 
     if (resizeMode === VideoResizeMode.stretch) {
       nativeResizeMode = RCTVideoInstance.Constants.ScaleToFill;
